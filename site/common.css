@@ -1,0 +1,17 @@
+p.Subheader {
+    font-style: italic;
+	text-align: center;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+body {
+	background-color: black;
+}
+
+h1,h2,h3,li,p {
+	font-color: white;
+	font-family: 'CG Times', 'Times New Roman', 'Times New', 'Times Roman', times, serif;
+}
