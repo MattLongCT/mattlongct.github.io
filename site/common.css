@@ -17,11 +17,11 @@ h1,h2,h3,li,p,a {
 	font-family: 'CG Times', 'Times New Roman', 'Times New', 'Times Roman', times, serif;
 }
 
-div.contact > li {
+li {
 	display:inline;
-	margin: 0;
+	/* margin: 1pc; */
 }
 
 div.record > h1 {
-	margin-bottom: 0;
+	margin-bottom: 0.33em;
 }
