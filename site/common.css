@@ -20,8 +20,18 @@ h1,h2,h3,li,p,a {
 li {
 	display:inline;
 	margin: 1pc;
+	font-size: 14pt;
 }
 
 div.record > h1 {
 	margin-bottom: 0.33em;
+}
+
+div.contact {
+	/*font-size:large;*/
+}
+
+div.footer {
+	margin-top: 1pc;
+	font-size: 10pt;
 }
