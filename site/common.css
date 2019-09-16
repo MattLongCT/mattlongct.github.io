@@ -1,4 +1,4 @@
-p.Subheader {
+p.subheader {
     font-style: italic;
 	text-align: center;
 }
@@ -11,7 +11,16 @@ body {
 	background-color: black;
 }
 
-h1,h2,h3,li,p {
+h1,h2,h3,li,p,a {
 	color: white;
 	font-family: 'CG Times', 'Times New Roman', 'Times New', 'Times Roman', times, serif;
+}
+
+div.contact > li {
+	display:inline;
+	margin: 0;
+}
+
+div.record > h1 {
+	margin-bottom: 0;
 }
