@@ -19,7 +19,7 @@ h1,h2,h3,li,p,a {
 
 li {
 	display:inline;
-	/* margin: 1pc; */
+	margin: 1pc;
 }
 
 div.record > h1 {
