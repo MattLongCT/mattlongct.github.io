@@ -1,6 +1,7 @@
 p.subheader {
     font-style: italic;
 	text-align: center;
+	margin-top: 0;
 }
 
 h1,h2,h3 {
