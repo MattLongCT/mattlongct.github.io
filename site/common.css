@@ -21,6 +21,7 @@ li {
 	display:inline;
 	margin: 1pc;
 	font-size: 14pt;
+	font-style: bold;
 }
 
 div.record > h1 {
@@ -34,4 +35,5 @@ div.contact {
 div.footer {
 	margin-top: 1pc;
 	font-size: 10pt;
+	text-align: center;
 }
