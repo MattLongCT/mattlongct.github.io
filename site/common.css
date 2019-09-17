@@ -20,7 +20,7 @@ h1,h2,h3,li,p,a {
 li {
 	display:inline;
 	margin: 1pc;
-	font-size: 14pt;
+	font-size: 16pt;
 	font-style: bold;
 }
 
@@ -36,4 +36,7 @@ div.footer {
 	margin-top: 1pc;
 	font-size: 10pt;
 	text-align: center;
+}
+p.intro {
+	font-size: 14pt;
 }
