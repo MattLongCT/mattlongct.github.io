@@ -19,7 +19,7 @@ h1,h2,h3,li,p,a {
 
 li {
 	display:inline;
-	margin: 1pc;
+	margin: 3pc;
 	font-size: 16pt;
 	font-style: bold;
 }
@@ -41,3 +41,6 @@ p.intro {
 	font-size: 14pt;
 	text-align: center;
 }
+
+div.record {
+	margin-top: 1pc;
