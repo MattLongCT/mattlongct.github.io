@@ -75,8 +75,8 @@ div.footer {
 /* other classes */
 /* .error */
 h1.error {
-	font-size: 21pt;
-	font-style: bolder;
+	font-size: 32pt;
+	font-weight: bolder;
 	color: #feed56;
 }
 p.error {
