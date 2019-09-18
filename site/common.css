@@ -48,6 +48,10 @@ div.record {
 	margin-top: 3pc;
 }
 
+div.record > h1, div.contact > h1 {
+	/*margin-bottom: 0.33em;*/
+}
+
 /* .footer */
 div.footer {
 	margin-top: 1pc;
