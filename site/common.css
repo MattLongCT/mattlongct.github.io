@@ -37,7 +37,7 @@ p.subheader {
 /* specific classes */
 /* .header */
 div.header {
-	margin-top: 0 0 3pc;
+	margin: 0 0 3pc;
 	position: sticky;
 }
 /* .intro */
