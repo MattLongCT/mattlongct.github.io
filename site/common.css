@@ -21,6 +21,10 @@ li {
 	font-style: bold;
 }
 
+div {
+	margin: 3pc 5pc;
+}
+
 /* base classes */
 p.subheader {
     font-style: italic;
