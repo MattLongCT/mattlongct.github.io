@@ -71,3 +71,15 @@ div.footer {
 	font-size: 10pt;
 	/*text-align: center;*/
 }
+
+/* other classes */
+/* .404 */
+h1.404 {
+	font-size: 21pt;
+	font-style: bolder;
+	color: #feed56;
+}
+p.404 {
+	text-align: center;
+	font-size: 18pt;
+}
