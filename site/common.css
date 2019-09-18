@@ -3,6 +3,8 @@
 /* without classes */
 body {
 	background-color: black;
+	color: white;
+	font-family: 'CG Times', 'Times New Roman', 'Times New', 'Times Roman', times, serif;
 }
 
 h1,h2,h3,li,p,a {
