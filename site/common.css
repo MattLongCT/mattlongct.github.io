@@ -55,7 +55,7 @@ div.record > h1, div.contact > h1 {
 
 /* .footer */
 div.footer {
-	margin-top: 1pc;
+	margin: 1pc 0 0;
 	font-size: 10pt;
 	/*text-align: center;*/
 }
