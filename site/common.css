@@ -29,10 +29,15 @@ div {
 p.subheader {
     font-style: italic;
 	text-align: center;
-	margin-top: -0.33em;
+	margin-top: -1pc;
 }
 
 /* specific classes */
+/* .header */
+div.header {
+	margin-top: 0 0 3pc;
+	position: sticky;
+}
 /* .intro */
 p.intro {
 	font-size: 14pt;
