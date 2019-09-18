@@ -1,13 +1,6 @@
-p.subheader {
-    font-style: italic;
-	text-align: center;
-	margin-top: 0;
-}
+/* CSS stylesheet */
 
-h1,h2,h3 {
-    text-align: center;
-}
-
+/* without classes */
 body {
 	background-color: black;
 }
@@ -17,6 +10,10 @@ h1,h2,h3,li,p,a {
 	font-family: 'CG Times', 'Times New Roman', 'Times New', 'Times Roman', times, serif;
 }
 
+h1,h2,h3 {
+    text-align: center;
+}
+
 li {
 	display:inline;
 	margin: 3pc;
@@ -24,23 +21,36 @@ li {
 	font-style: bold;
 }
 
-div.record > h1, div.contact >h1 {
-	margin-bottom: 0.33em;
-}
-
-div.contact {
-	/*font-size:large;*/
-}
-
-div.footer {
-	margin-top: 1pc;
-	font-size: 10pt;
+/* base classes */
+p.subheader {
+    font-style: italic;
 	text-align: center;
+	margin-top: 0;
 }
+
+/* .intro */
 p.intro {
 	font-size: 14pt;
 	text-align: center;
 }
 
+/* .contact */
+div.contact {
+	/*font-size:large;*/
+}
+
+/* .record */
 div.record {
 	margin-top: 3pc;
+}
+
+div.record > h1, div.contact > h1 {
+	margin-bottom: 0.33em;
+}
+
+/* .footer */
+div.footer {
+	margin-top: 1pc;
+	font-size: 10pt;
+	text-align: center;
+}
