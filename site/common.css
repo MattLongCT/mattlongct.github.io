@@ -40,6 +40,11 @@ div.header {
 	margin: 0 0 3pc;
 	position: sticky;
 }
+
+table.header {
+	position: inherit;
+	margin: 0 1.5pc;
+}
 /* .intro */
 p.intro {
 	font-size: 14pt;
