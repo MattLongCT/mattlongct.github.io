@@ -73,13 +73,13 @@ div.footer {
 }
 
 /* other classes */
-/* .404 */
-h1.404 {
+/* .error */
+h1.error {
 	font-size: 21pt;
 	font-style: bolder;
 	color: #feed56;
 }
-p.404 {
+p.error {
 	text-align: center;
 	font-size: 18pt;
 }
