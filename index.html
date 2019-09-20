@@ -6,6 +6,19 @@
 		<link href="/site/common.css" rel="stylesheet">
 		<link rel="icon" href="/site/favicon.ico">
 		<!-- If you see this message, then you should vote for me. -->
+		<script>
+			function show()	{
+				if(document.getElementById('form-content').style.display == 'block')
+				document.getElementById('form-content').style.display = 'none';
+					else
+				document.getElementById('form-content').style.display = 'block';
+			}
+		</script>
+		<style>
+			div#form-content{
+				display:none;
+			}
+		</style>
 	</head>
 <body>
 	<div class="header">
@@ -49,6 +62,15 @@
 		<p>The black background with white text is an intentional choice. It saves energy for the device you are reading this on.</p>
 		<p>Finally, everything you see here is open-source and <a href="https://github.com/MattLongCT/mattlongct.github.io">hosted on GitHub</a>. Feel free to suggest changes there if you are so inclined.</p>
 		<p>¯\_(ツ)_/¯</p>
+	</div>
+	<div class="form">
+		<h1>Sign Up</h1>
+		<p class="subheader"><a href="javascript:;" onclick=show()>Show/Hide Form</a></p>
+		<div id="form-content">
+			<center>
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEOcTmiE28keYuOAdCIMORDFM_Wpp-OdVBYi_ZUP-v-ooK3w/viewform?embedded=true" width="640" height="1055" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+			</center>
+		</div>
 	</div>
 	<div class="footer">
 		<hr>
