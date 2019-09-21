@@ -63,7 +63,8 @@ span.header {
 
 p.header {
 	display: inherit;
-	margin: 2pc;
+	margin: 1.5pc;
+	vertical-align: middle;
 }
 	
 /* .intro */
