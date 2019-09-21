@@ -45,7 +45,7 @@ div.header {
 	top: 0;
 	background-color: black;
 	border-bottom: white 1px solid;
-	padding-top: 8px;
+	padding: 8px;
 }
 
 table.header {
