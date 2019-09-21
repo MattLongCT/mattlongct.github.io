@@ -44,7 +44,7 @@ div.anchor {
 /* specific classes */
 /* .header */
 div.header {
-	margin: 0 0 3pc;
+	margin: 0pc;
 	position: sticky;
 	top: 0;
 	background-color: black;
