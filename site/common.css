@@ -34,7 +34,7 @@ p.subheader {
 }
 
 div.container {
-	display:inline;
+	display: inline;
 }
 
 div.anchor {
@@ -44,11 +44,11 @@ div.anchor {
 /* specific classes */
 /* .header */
 div.header {
-	margin: 0pc;
+	margin: 0;
 	position: sticky;
 	top: 0;
 	background-color: black;
-	border-bottom: white 1px solid;
+	border-bottom: #feed56 1px solid;
 	padding: 8px;
 }
 
@@ -79,11 +79,11 @@ p.intro {
 
 /* .contact */
 div.contact {
-	/*font-size:large;*/
+	/*font-size: large;*/
 }
 
 li.contact {
-	display:inline;
+	display: inline;
 	margin: 3pc;
 	font-size: 16pt;
 	font-style: bold;
@@ -101,6 +101,7 @@ div.record > h1, div.contact > h1 {
 /* .media */
 ul.media {
 	list-style-type: '-';
+	margin: 0 1.5pc;
 }
 
 /* .footer */
