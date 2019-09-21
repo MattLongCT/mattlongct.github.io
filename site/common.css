@@ -27,6 +27,10 @@ p.subheader {
 	margin-top: -1pc;
 }
 
+div.container {
+	display:inline;
+}
+
 /* specific classes */
 /* .header */
 div.header {
@@ -40,16 +44,20 @@ div.header {
 table.header {
 	position: inherit;
 	margin: 0 1.5pc;
-	display:inline;
+	display: inline;
 }
 
 span.header {
-	display:inline;
-	margin: 3pc;
+	display: inline;
 	font-size: 13pt;
 	margin: 2pc;
-	
+	position: inherit;
 }
+
+p.header {
+	display: inherit;
+}
+	
 /* .intro */
 p.intro {
 	font-size: 14pt;
