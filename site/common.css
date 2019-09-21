@@ -58,6 +58,7 @@ span.header {
 	display: inline;
 	font-size: 13pt;
 	position: inherit;
+	margin: 3pc;
 }
 
 p.header {
