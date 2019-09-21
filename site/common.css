@@ -32,6 +32,7 @@ p.subheader {
 div.header {
 	margin: 0 0 3pc;
 	position: sticky;
+	top: 0;
 }
 
 table.header {
