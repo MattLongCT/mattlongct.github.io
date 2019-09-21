@@ -18,6 +18,11 @@ h1,h2,h3 {
 
 div {
 	margin: 3pc 5pc;
+	/*display: block;*/
+}
+
+p {
+	display: inherit;
 }
 
 /* base classes */
