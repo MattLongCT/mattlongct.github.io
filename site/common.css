@@ -5,6 +5,7 @@ body {
 	background-color: black;
 	color: white;
 	font-family: 'CG Times', 'Times New Roman', 'Times New', 'Times Roman', times, serif;
+	margin-top: 0;
 }
 
 h1,h2,h3,li,p,a {
@@ -41,9 +42,10 @@ div.container {
 div.header {
 	margin: 0 0 3pc;
 	position: sticky;
-	top: 8px;
+	top: 0;
 	background-color: black;
 	border-bottom: white 1px solid;
+	padding-top: 8px;
 }
 
 table.header {
