@@ -57,12 +57,12 @@ table.header {
 span.header {
 	display: inline;
 	font-size: 13pt;
-	margin: 2pc;
 	position: inherit;
 }
 
 p.header {
 	display: inherit;
+	margin; 2pc;
 }
 	
 /* .intro */
