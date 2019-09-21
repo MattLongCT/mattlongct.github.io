@@ -33,11 +33,21 @@ div.header {
 	margin: 0 0 3pc;
 	position: sticky;
 	top: 0;
+	background-color: black;
+	border-bottom: white 1px solid;
 }
 
 table.header {
 	position: inherit;
 	margin: 0 1.5pc;
+}
+
+span.header {
+	display:inline;
+	margin: 3pc;
+	font-size: 13pt;
+	margin: 2pc;
+	
 }
 /* .intro */
 p.intro {
