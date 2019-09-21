@@ -40,6 +40,7 @@ div.header {
 table.header {
 	position: inherit;
 	margin: 0 1.5pc;
+	display:inline;
 }
 
 span.header {
