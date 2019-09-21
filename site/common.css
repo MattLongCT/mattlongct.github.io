@@ -37,6 +37,10 @@ div.container {
 	display:inline;
 }
 
+div.anchor {
+	margin: 2pc 5pc;
+}
+
 /* specific classes */
 /* .header */
 div.header {
