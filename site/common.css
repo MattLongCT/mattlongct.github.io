@@ -122,3 +122,8 @@ p.error {
 	text-align: center;
 	font-size: 18pt;
 }
+
+/* .privacy */
+a.privacy {
+	font-weight: bold;
+}
