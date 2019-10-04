@@ -159,4 +159,10 @@
 		width: 100%;
 		height: auto;
 	}
+	
+	.form > p.subheader, div#form-content {
+		display: none;
+	}
+	
+	::after
 }
