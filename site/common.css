@@ -61,7 +61,7 @@ table.header {
 
 span.header {
 	display: inline;
-	font-size: large;
+	font-size: 17px;
 	position: inherit;
 	margin: 48px;
 }
