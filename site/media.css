@@ -131,15 +131,12 @@
 	
 	/* without classes */
 	td {
-		font-size: medium;
-	}
-	
-	body {}
-
-	td {
+		font-size: xx-large;
 		padding: 5px;
 		text-align: center;
 	}
+	
+	body {}
 	
 	div {
 		margin: 48px 80px 160px;
