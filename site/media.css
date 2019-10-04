@@ -127,7 +127,7 @@
 }
 
 /* For iphone6 */
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 375px) {
 	
 	/* without classes */
 	td {
