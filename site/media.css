@@ -154,6 +154,10 @@
 		display: none;
 	}
 	
+	div.footer {
+		margin: 24px 80px;
+	}
+	
 	/* identifiers */
 	p#form-link {
 		display: block;
