@@ -128,25 +128,31 @@
 
 /* For iphone6 */
 @media screen and (width: 375px) {
+	
+	/* without classes */
 	td {
 		font-size: medium;
 	}
-	.container {
-		display: none;
-	}
-
-	table.header, tbody, tr, td, div.header {
-		width: 100%;
-		height: auto;
-	}
-
+	
 	body {}
 
 	td {
 		padding: 0;
 	}
+	
+	/* base classes */
+	.container {
+		display: none;
+	}
 
+	/* specific classes */
 	li.contact {
 		font-size: xx-large;
+	}
+	
+	/* other */
+	table.header, tbody, tr, td, div.header {
+		width: 100%;
+		height: auto;
 	}
 }
