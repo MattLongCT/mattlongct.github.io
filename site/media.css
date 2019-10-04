@@ -37,13 +37,10 @@
 		margin-right: 5pc;
 	}
 	
-	div.anchor {
-		/*display: none;*/
-	}
-	
 	/* identifiers */
 	div#bio {
 		break-before: page;
+		margin: 0;
 	}
 	
 	/* other */
