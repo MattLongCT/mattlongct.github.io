@@ -127,7 +127,7 @@
 }
 
 /* For iphone6 */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 400px) {
 	
 	/* without classes */
 	td {
@@ -199,6 +199,75 @@
 	table.header, tbody, tr, td, div.header {
 		width: 100%;
 		height: auto;
+	}
+	
+	.form > p.subheader, div#form-content {
+		display: none;
+	}
+}
+
+/* For other mobile */
+@media (any-pointer: none) {
+	
+	/* without classes */
+	td {
+		font-size: xx-large;
+		padding: 5px;
+		text-align: center;
+	}
+	
+	div {
+		margin: 48px 80px 160px;
+	}
+	
+	h1 {
+		margin: 21.44px 0;
+	}
+	
+	h2 {
+		margin: 19.92px 0;
+	}
+	
+	p {
+		margin: 18px 0;
+	}
+	
+	/* base classes */
+	div.container,
+	div.anchor,
+	p.header {
+		display: none;
+	}
+
+	/* specific classes */
+	li.contact {
+		font-size: xx-large;
+		margin: 0 60px;
+	}
+	
+	div.footer {
+		margin: 24px 80px;
+	}
+	
+	table.header {
+		align-content: center;
+		margin: auto;
+		padding-left: 33%;
+		padding-right: 33%;
+		align-self: center;
+		width: fit-content;
+	}
+	
+	div.header {
+		border-bottom: #feed56 5px solid;
+		padding-bottom: 8px;
+	}
+	
+	/* identifiers */
+	p#form-link {
+		display: block;
+		text-align: center;
+		font-size: large;
 	}
 	
 	.form > p.subheader, div#form-content {
