@@ -32,6 +32,20 @@
 		border-bottom: black 1px solid;
 	}
 	
+	p.intro {
+		margin-left: 5pc;
+		margin-right: 5pc;
+	}
+	
+	div.anchor {
+		/*display: none;*/
+	}
+	
+	/* identifiers */
+	div#bio {
+		break-before: page;
+	}
+	
 	/* other */
 	div.form, div#form {
 		display:none;
