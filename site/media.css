@@ -127,7 +127,7 @@
 }
 
 /* For iphone6 */
-@media screen and (width: 375px) {
+@media screen and (min-width: 375px) {
 	
 	/* without classes */
 	td {
@@ -148,6 +148,10 @@
 	/* specific classes */
 	li.contact {
 		font-size: xx-large;
+	}
+	
+	p.header {
+		display: none;
 	}
 	
 	/* other */
