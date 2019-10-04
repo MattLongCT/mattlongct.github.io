@@ -142,6 +142,10 @@
 		margin: 48px 80px 160px;
 	}
 	
+	h1 {
+		margin: 0.67em 0;
+	}
+	
 	/* base classes */
 	div.container,
 	div.anchor {
