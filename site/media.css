@@ -117,8 +117,13 @@
 	}
 }
 
+/* For my screen */
 @media screen and (width: 1366px) {
+	/* body */
 	body {
 		/* display:none; */
 	}
+	/* Note */
+		/* by default this is optimized */
 }
+
