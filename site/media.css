@@ -19,33 +19,63 @@
 	}
 	
 	div {
-		margin-left: 0;
-		margin-right: 0;
+		margin: 0 5pc;
 	}
 	
 	/* all classes */	
-	div.container {
-		display: none;
-	}
-	
-	li.contact {
-		margin: 2.5pc;
-	}
-	
+	/* .header */
 	div.header {
 		background-color: white;
 		border-bottom: black 0.25pc solid;
 		position: static;
 	}
 	
+	table.header {
+		margin: 0 1.5pc;
+	}
+	
+	span.header {
+		margin: 3pc;
+	}
+	
+	p.header {
+		margin: 3pc;
+	}
+	
+	/* .container */
+	div.container {
+		display: none;
+	}
+	
+	/* anchor */
+	div.anchor {
+		margin: 0.5pc 0 3pc 0;
+	}
+	
+	/* .subheader */
+	p.subheader {
+		margin-top: -1pc;
+	}
+	
+	/* .intro */
 	p.intro {
 		margin-left: 5pc;
 		margin-right: 5pc;
 	}
 	
-	div.anchor {
-		margin-top: 0;
-		margin-bottom: 0;
+	/* .contact */
+	li.contact {
+		margin: 2.5pc;
+	}
+	
+	/* .media */
+	ul.media {
+	margin: 0 1.5pc;
+	}
+	
+	/* .footer */
+	div.footer {
+	margin: 1pc 0 0;
 	}
 	
 	/* identifiers */
