@@ -22,4 +22,9 @@
 	li.contact {
 		margin: 2.5pc;
 	}
+	
+	div.anchor {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
