@@ -20,7 +20,7 @@
 	
 	/* all classes */	
 	div.container {
-		display:none;
+		display: none;
 	}
 	
 	li.contact {
@@ -38,6 +38,10 @@
 		margin-right: 5pc;
 	}
 	
+	div.anchor {
+		display: none;
+	}
+	
 	/* identifiers */
 	div#bio {
 		break-before: page;
@@ -46,7 +50,7 @@
 	
 	/* other */
 	div.form, div#form {
-		display:none;
+		display: none;
 	}
 }
 
