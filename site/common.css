@@ -18,19 +18,20 @@ h1,h2,h3 {
 }
 
 div {
-	margin: 1.5pc 5pc;
+	margin: 24px 80px;
 	display: block;
 }
 
 p {
 	display: inherit;
+	/* font-size: 16px */
 }
 
 /* base classes */
 p.subheader {
     font-style: italic;
 	text-align: center;
-	margin-top: -1pc;
+	margin-top: -16px;
 }
 
 div.container {
@@ -38,7 +39,7 @@ div.container {
 }
 
 div.anchor {
-	margin: 0.5pc 5pc 3pc 5pc;
+	margin: 8px 80px 48px 80px;
 }
 
 /* specific classes */
@@ -60,20 +61,20 @@ table.header {
 
 span.header {
 	display: inline;
-	font-size: 13pt;
+	font-size: large;
 	position: inherit;
-	margin: 3pc;
+	margin: 48px;
 }
 
 p.header {
 	display: inherit;
-	margin: 1.5pc;
+	margin: 24px;
 	vertical-align: middle;
 }
 	
 /* .intro */
 p.intro {
-	font-size: 14pt;
+	font-size: large;
 	text-align: center;
 }
 
@@ -84,14 +85,14 @@ div.contact {
 
 li.contact {
 	display: inline;
-	margin: 3pc;
-	font-size: 16pt;
+	margin: 48px;
+	font-size: larger;
 	font-style: bold;
 }
 
 /* .record */
 div.record {
-	/*margin-top: 3pc;*/
+	/*margin-top: 48px;*/
 }
 
 div.record > h1, div.contact > h1 {
@@ -101,13 +102,13 @@ div.record > h1, div.contact > h1 {
 /* .media */
 ul.media {
 	list-style-type: '-';
-	margin: 0 1.5pc;
+	margin: 0 24px;
 }
 
 /* .footer */
 div.footer {
-	margin: 1pc 0 0;
-	font-size: 10pt;
+	margin: 16px 0 0;
+	font-size: small;
 	/*text-align: center;*/
 }
 

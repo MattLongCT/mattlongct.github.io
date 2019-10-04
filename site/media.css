@@ -4,6 +4,7 @@
 @media print {
 	
     /* without classes */
+	
 	body {
 		background-color: white;
 		color: black;
@@ -23,6 +24,22 @@
 	}
 	
 	/* all classes */	
+		/* base classes */
+
+	p.subheader {
+		margin-top: -1pc;
+	}
+	
+	div.container {
+		display: none;
+	}
+	
+	div.anchor {
+		margin: 0.5pc 0 3pc 0;
+	}
+	
+		/* specific classes */
+
 	/* .header */
 	div.header {
 		background-color: white;
@@ -42,21 +59,6 @@
 		margin: 3pc;
 	}
 	
-	/* .container */
-	div.container {
-		display: none;
-	}
-	
-	/* anchor */
-	div.anchor {
-		margin: 0.5pc 0 3pc 0;
-	}
-	
-	/* .subheader */
-	p.subheader {
-		margin-top: -1pc;
-	}
-	
 	/* .intro */
 	p.intro {
 		margin-left: 5pc;
@@ -68,25 +70,36 @@
 		margin: 2.5pc;
 	}
 	
+	/* .record */
+	div.record {
+		/*margin-top: 3pc;*/
+	}
+	
 	/* .media */
 	ul.media {
-	margin: 0 1.5pc;
+		margin: 0 1.5pc;
 	}
 	
 	/* .footer */
 	div.footer {
-	margin: 1pc 0 0;
+		margin: 1pc 0 0;
 	}
 	
 	/* identifiers */
+	
 	div#bio {
 		break-before: page;
 		margin: 0;
 	}
 	
 	/* other */
+	
 	div.form, div#form {
 		display: none;
+	}
+	
+	div.record > h1, div.contact > h1 {
+		/*margin-bottom: 0.33em;*/
 	}
 }
 
