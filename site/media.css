@@ -27,6 +27,11 @@
 		margin: 2.5pc;
 	}
 	
+	div.header {
+		background-color: white;
+		border-bottom: black 1px solid;
+	}
+	
 	/* other */
 	div.form, div#form {
 		display:none;
