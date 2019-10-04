@@ -49,3 +49,9 @@
 		display:none;
 	}
 }
+
+@media screen and (width: 1366px) {
+	body {
+		/* display:none; */
+	}
+}
