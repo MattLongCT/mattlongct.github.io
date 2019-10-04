@@ -19,7 +19,7 @@
 	}
 	
 	div {
-		margin: 0 3.5pc;
+		margin: 0 2.5pc;
 	}
 	
 	/* all classes */	
@@ -34,7 +34,7 @@
 	}
 	
 	div.anchor {
-		margin: 0.5pc 0 3pc 0;
+		margin: 0.5pc 0 2pc 0;
 	}
 	
 		/* specific classes */
@@ -81,9 +81,13 @@
 		margin: 0 1.5pc;
 	}
 	
+	div.media {
+		margin-top: -1pc;
+	}
+	
 	/* .footer */
 	div.footer {
-		margin: 1pc 0 0;
+		margin: 0.75pc 0 0;
 		font-size: 10pt;
 	}
 	
@@ -91,6 +95,10 @@
 	
 	div#bio {
 		break-before: page;
+		margin: 0;
+	}
+	
+	div#media, div#intro {
 		margin: 0;
 	}
 	
@@ -102,6 +110,10 @@
 	
 	div.record > h1, div.contact > h1 {
 		/*margin-bottom: 0.33em;*/
+	}
+	
+	div.footer > p {
+		margin-bottom: 0.5em;
 	}
 }
 
