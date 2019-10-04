@@ -2,7 +2,8 @@
 
 /* For print */
 @media print {
-    /* no classes */
+	
+    /* without classes */
 	body {
 		background-color: white;
 		color: black;
@@ -17,8 +18,7 @@
 		margin-right: 0;
 	}
 	
-	
-	
+	/* all classes */	
 	div.container {
 		display:none;
 	}
