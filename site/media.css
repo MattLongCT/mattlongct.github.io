@@ -14,8 +14,8 @@
 	}
 	
 	h1 {
-		margin-top: 0;
-		margin-bottom: 0;
+		margin-top: 1pc;
+		margin-bottom: 1pc;
 	}
 	
 	div {
@@ -34,7 +34,7 @@
 	
 	div.header {
 		background-color: white;
-		border-bottom: black 1px solid;
+		border-bottom: black 0.25pc solid;
 		position: static;
 	}
 	
