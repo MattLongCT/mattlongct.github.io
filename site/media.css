@@ -123,7 +123,30 @@
 	body {
 		/* display:none; */
 	}
-	/* Note */
-		/* by default this is optimized */
+	/* by default this is optimized */
 }
 
+/* For iphone6 */
+@media screen and (width: 375px) {
+	td {
+		font-size: medium;
+	}
+	.container {
+		display: none;
+	}
+
+	table.header, tbody, tr, td, div.header {
+		width: 100%;
+		height: auto;
+	}
+
+	body {}
+
+	td {
+		padding: 0;
+	}
+
+	li.contact {
+		font-size: xx-large;
+	}
+}
