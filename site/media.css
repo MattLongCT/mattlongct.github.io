@@ -127,7 +127,7 @@
 }
 
 /* For iphone6 */
-@media screen and (min-width: 375px) {
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
 	
 	/* without classes */
 	td {
@@ -207,10 +207,10 @@
 }
 
 /* For other mobile */
-@media (any-pointer: none) {
+/*@media (any-pointer: none) {*/
 	
 	/* without classes */
-	td {
+	/*td {
 		font-size: xx-large;
 		padding: 5px;
 		text-align: center;
@@ -230,17 +230,17 @@
 	
 	p {
 		margin: 18px 0;
-	}
+	} */
 	
 	/* base classes */
-	div.container,
+	/* div.container,
 	div.anchor,
 	p.header {
 		display: none;
-	}
+	} */
 
 	/* specific classes */
-	li.contact {
+	/* li.contact {
 		font-size: xx-large;
 		margin: 0 60px;
 	}
@@ -261,10 +261,10 @@
 	div.header {
 		border-bottom: #feed56 5px solid;
 		padding-bottom: 8px;
-	}
+	} */
 	
 	/* identifiers */
-	p#form-link {
+	/* p#form-link {
 		display: block;
 		text-align: center;
 		font-size: large;
@@ -272,5 +272,5 @@
 	
 	.form > p.subheader, div#form-content {
 		display: none;
-	}
+	} */
 }
