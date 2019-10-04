@@ -154,6 +154,13 @@
 		display: none;
 	}
 	
+	/* identifiers */
+	p#form-link {
+		display: block;
+		text-align: center;
+		font-size: large;
+	}
+	
 	/* other */
 	table.header, tbody, tr, td, div.header {
 		width: 100%;
@@ -164,5 +171,4 @@
 		display: none;
 	}
 	
-	::after
 }
