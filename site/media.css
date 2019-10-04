@@ -2,7 +2,8 @@
 
 /* For print */
 @media print {
-    body {
+    /* no classes */
+	body {
 		background-color: white;
 		color: black;
 	}
@@ -11,9 +12,12 @@
 		color: black;
 	}
 	
-	div.form, div#form {
-		display:none;
+	div {
+		margin-left: 0;
+		margin-right: 0;
 	}
+	
+	
 	
 	div.container {
 		display:none;
@@ -23,8 +27,8 @@
 		margin: 2.5pc;
 	}
 	
-	div {
-		margin-left: 0;
-		margin-right: 0;
+	/* other */
+	div.form, div#form {
+		display:none;
 	}
 }
