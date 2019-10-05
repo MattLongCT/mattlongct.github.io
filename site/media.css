@@ -1,0 +1,272 @@
+/* @media stylesheet */
+/* For print */
+@media print {
+    /* without classes */
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    h1,h2,h3,li,p,a {
+        color: black;
+    }
+
+    h1 {
+        margin: 0.5pc 0;
+    }
+
+    div {
+        margin: 0 2.5pc;
+    }
+
+    /* all classes */
+    /* base classes */
+    p.subheader {
+        margin-top: -0.5pc;
+    }
+
+    div.container {
+        display: none;
+    }
+
+    div.anchor {
+        margin: 0.5pc 0 2pc 0;
+    }
+
+    /* specific classes */
+    /* .header */
+    div.header {
+        background-color: white;
+        border-bottom: black 0.25pc solid;
+        position: static;
+    }
+
+    table.header {
+        margin: 0 1.5pc;
+    }
+
+    span.header {
+        margin: 3pc;
+        font-size: 13pt;
+    }
+
+    p.header {
+        margin: 3pc;
+    }
+
+    /* .intro */
+    p.intro {
+        font-size: 14pt;
+        margin: 0 5pc 0;
+    }
+
+    /* .contact */
+    li.contact {
+        margin: 2.5pc;
+        font-size: 16pt;
+    }
+
+    /* .record */
+    div.record {
+        /*margin-top: 3pc;*/
+    }
+
+    /* .media */
+    ul.media {
+        margin: 0 1.5pc;
+    }
+
+    div.media {
+        margin-top: -1pc;
+    }
+
+    /* .footer */
+    div.footer {
+        margin: 0.75pc 0 0;
+        font-size: 10pt;
+    }
+
+    /* identifiers */
+    div#bio {
+        break-before: page;
+        margin: 0;
+    }
+
+    div#media, div#intro {
+        margin: 0;
+    }
+
+    /* other */
+    div.form, div#form {
+        display: none;
+    }
+
+    div.record > h1, div.contact > h1 {
+        /*margin-bottom: 0.33em;*/
+    }
+
+    div.footer > p {
+        margin-bottom: 0.5em;
+    }
+}
+
+/* For my screen */
+@media screen and (width: 1366px) {
+    /* body */ body {
+        /* display:none; */
+    }
+
+    /* by default this is optimized */
+}
+
+/* For iphone6 */
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    /* without classes */ td {
+        font-size: xx-large;
+        padding: 5px;
+        text-align: center;
+    }
+
+    body {
+    }
+
+    div {
+        margin: 48px 80px 160px;
+    }
+
+    h1 {
+        margin: 21.44px 0;
+    }
+
+    h2 {
+        margin: 19.92px 0;
+    }
+
+    p {
+        margin: 18px 0;
+    }
+
+    /* base classes */
+    div.container, div.anchor {
+        display: none;
+    }
+
+    /* specific classes */
+    li.contact {
+        font-size: 72px;
+        margin: 0 60px;
+    }
+
+    p.header {
+        display: none;
+    }
+
+    div.footer {
+        margin: 24px 80px;
+    }
+
+    table.header {
+        align-content: center;
+        margin: auto;
+        padding-left: 33%;
+        padding-right: 33%;
+        align-self: center;
+        width: fit-content;
+    }
+
+    div.header {
+        border-bottom: #feed56 5px solid;
+        padding-bottom: 8px;
+    }
+
+    /* identifiers */
+    p#form-link {
+        display: block;
+        text-align: center;
+        font-size: large;
+    }
+
+    /* other */
+    table.header, tbody, tr, td, div.header {
+        width: 100%;
+        height: auto;
+    }
+
+    .form > p.subheader, div#form-content {
+        display: none;
+    }
+}
+
+/* For Galaxy S5/S6 */
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+    /* without classes */ td {
+        font-size: xx-large;
+        padding: 5px;
+        text-align: center;
+    }
+
+    div {
+        margin: 48px 80px 132px;
+    }
+
+    h1 {
+        margin: 21.44px 0;
+    }
+
+    h2 {
+        margin: 19.92px 0;
+    }
+
+    p {
+        margin: 18px 0;
+    }
+
+    /* base classes */
+    div.container, div.anchor {
+        display: none;
+    }
+
+    /* specific classes */
+    li.contact {
+        font-size: 72px;
+        margin: 0 60px;
+    }
+
+    p.header {
+        display: none;
+    }
+
+    div.footer {
+        margin: 24px 80px;
+    }
+
+    table.header {
+        align-content: center;
+        margin: auto;
+        padding-left: 33%;
+        padding-right: 33%;
+        align-self: center;
+        width: fit-content;
+    }
+
+    div.header {
+        border-bottom: #feed56 5px solid;
+        padding-bottom: 8px;
+    }
+
+    /* identifiers */
+    p#form-link {
+        display: block;
+        text-align: justify;
+        font-size: large;
+    }
+
+    /* other */
+    table.header, tbody, tr, td, div.header {
+        height: auto;
+    }
+
+    .form > p.subheader, div#form-content {
+        display: none;
+    }
+}
