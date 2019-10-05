@@ -120,85 +120,6 @@
 }
 
 /* For iphone6 */
-<<<<<<< Updated upstream
-@media screen and (min-width: 375px) {
-	
-	/* without classes */
-	td {
-		font-size: xx-large;
-		padding: 5px;
-		text-align: center;
-	}
-	
-	body {}
-	
-	div {
-		margin: 48px 80px 160px;
-	}
-	
-	h1 {
-		margin: 21.44px 0;
-	}
-	
-	h2 {
-		margin: 19.92px 0;
-	}
-	
-	p {
-		margin: 18px 0;
-	}
-	
-	/* base classes */
-	div.container,
-	div.anchor {
-		display: none;
-	}
-
-	/* specific classes */
-	li.contact {
-		font-size: 72px;
-		margin: 0 60px;
-	}
-	
-	p.header {
-		display: none;
-	}
-	
-	div.footer {
-		margin: 24px 80px;
-	}
-	
-	table.header {
-		align-content: center;
-		margin: auto;
-		padding-left: 33%;
-		padding-right: 33%;
-		align-self: center;
-		width: fit-content;
-	}
-	
-	div.header {
-		border-bottom: #feed56 5px solid;
-		padding-bottom: 8px;
-	}
-	
-	/* identifiers */
-	p#form-link {
-		display: block;
-		text-align: center;
-		font-size: large;
-	}
-	
-	/* other */
-	table.header, tbody, tr, td, div.header {
-		width: 100%;
-		height: auto;
-	}
-	
-	.form > p.subheader, div#form-content {
-		display: none;
-	}
-=======
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
     /* without classes */ td {
         font-size: xx-large;
@@ -348,5 +269,4 @@
     .form > p.subheader, div#form-content {
         display: none;
     }
->>>>>>> Stashed changes
 }
