@@ -34,23 +34,23 @@
     }
 
     /* specific classes */
-    /* .header */
-    header.header {
+    /* .start */
+    header.start {
         background-color: white;
         border-bottom: black 0.25pc solid;
         position: static;
     }
 
-    table.header {
+    table.start {
         margin: 0 1.5pc;
     }
 
-    span.header {
+    span.start {
         margin: 3pc;
         font-size: 13pt;
     }
 
-    p.header {
+    p.start {
         margin: 3pc;
     }
 
@@ -157,7 +157,7 @@
         margin: 0 60px;
     }
 
-    p.header {
+    p.start {
         display: none;
     }
 
@@ -165,7 +165,7 @@
         margin: 24px 80px;
     }
 
-    table.header {
+    table.start {
         align-content: center;
         margin: auto;
         padding-left: 33%;
@@ -174,7 +174,7 @@
         width: fit-content;
     }
 
-    header.header {
+    header.start {
         border-bottom: #feed56 5px solid;
         padding-bottom: 8px;
     }
@@ -187,7 +187,7 @@
     }
 
     /* other */
-    table.header, tbody, tr, td, header.header {
+    table.start, tbody, tr, td, header.start {
         width: 100%;
         height: auto;
     }
@@ -232,7 +232,7 @@
         margin: 0 60px;
     }
 
-    p.header {
+    p.start {
         display: none;
     }
 
@@ -240,7 +240,7 @@
         margin: 24px 80px;
     }
 
-    table.header {
+    table.start {
         align-content: center;
         margin: auto;
         padding-left: 33%;
@@ -249,7 +249,7 @@
         width: fit-content;
     }
 
-    header.header {
+    header.start {
         border-bottom: #feed56 5px solid;
         padding-bottom: 8px;
     }
@@ -262,7 +262,7 @@
     }
 
     /* other */
-    table.header, tbody, tr, td, header.header {
+    table.start, tbody, tr, td, header.start {
         height: auto;
     }
 
