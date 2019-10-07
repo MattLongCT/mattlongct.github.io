@@ -138,6 +138,10 @@ a.privacy {
 }
 
 section.privacy {
-	margin: 24px 0;
+	margin: 48px 0;
 	display: inherit;
+}
+
+section.privacy:nth-child(2) {
+	margin-top: 0;
 }
