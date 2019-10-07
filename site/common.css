@@ -17,7 +17,7 @@ h1,h2,h3 {
     text-align: center;
 }
 
-div {
+div, main, header, footer, address, article, nav, section {
 	margin: 24px 80px;
 	display: block;
 }
@@ -38,7 +38,7 @@ p.subheader {
 	margin-top: -16px;
 }
 
-div.container {
+nav.container {
 	display: inline;
 }
 
@@ -51,8 +51,8 @@ div.anchor {
 }
 
 /* specific classes */
-/* .header */
-div.header {
+/* .start */
+header.start {
 	margin: 0;
 	position: sticky;
 	top: 0;
@@ -61,20 +61,20 @@ div.header {
 	padding: 8px;
 }
 
-table.header {
+table.start {
 	position: inherit;
 	margin: 0 1.5pc;
 	display: inline;
 }
 
-span.header {
+span.start {
 	display: inline;
 	font-size: 17px;
 	position: inherit;
 	margin: 48px;
 }
 
-p.header {
+p.start {
 	display: inherit;
 	margin: 24px;
 	vertical-align: middle;
@@ -87,8 +87,8 @@ p.intro {
 }
 
 /* .contact */
-div.contact {
-	/*font-size: large;*/
+address.contact {
+	font-style: normal;
 }
 
 li.contact {
@@ -103,7 +103,7 @@ div.record {
 	/*margin-top: 48px;*/
 }
 
-div.record > h1, div.contact > h1 {
+div.record > h1, address.contact > h1 {
 	/*margin-bottom: 0.33em;*/
 }
 
@@ -114,7 +114,7 @@ ul.media {
 }
 
 /* .footer */
-div.footer {
+div.footer, footer {
 	margin: 16px 0 0;
 	font-size: small;
 	/*text-align: center;*/
@@ -135,4 +135,13 @@ p.error {
 /* .privacy */
 a.privacy {
 	font-weight: bold;
+}
+
+section.privacy {
+	margin: 48px 0;
+	display: inherit;
+}
+
+section.privacy:nth-child(2) {
+	margin-top: 0;
 }

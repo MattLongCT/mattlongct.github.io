@@ -15,7 +15,7 @@
         margin: 0.5pc 0;
     }
 
-    div {
+    div, main, header, footer, address, article, nav, section {
         margin: 0 2.5pc;
     }
 
@@ -34,23 +34,23 @@
     }
 
     /* specific classes */
-    /* .header */
-    div.header {
+    /* .start */
+    header.start {
         background-color: white;
         border-bottom: black 0.25pc solid;
         position: static;
     }
 
-    table.header {
+    table.start {
         margin: 0 1.5pc;
     }
 
-    span.header {
+    span.start {
         margin: 3pc;
         font-size: 13pt;
     }
 
-    p.header {
+    p.start {
         margin: 3pc;
     }
 
@@ -101,7 +101,7 @@
         display: none;
     }
 
-    div.record > h1, div.contact > h1 {
+    div.record > h1, address.contact > h1 {
         /*margin-bottom: 0.33em;*/
     }
 
@@ -130,7 +130,7 @@
     body {
     }
 
-    div {
+    div, main, header, footer, address, article, nav, section {
         margin: 48px 80px 160px;
     }
 
@@ -157,7 +157,7 @@
         margin: 0 60px;
     }
 
-    p.header {
+    p.start {
         display: none;
     }
 
@@ -165,7 +165,7 @@
         margin: 24px 80px;
     }
 
-    table.header {
+    table.start {
         align-content: center;
         margin: auto;
         padding-left: 33%;
@@ -174,7 +174,7 @@
         width: fit-content;
     }
 
-    div.header {
+    header.start {
         border-bottom: #feed56 5px solid;
         padding-bottom: 8px;
     }
@@ -187,7 +187,7 @@
     }
 
     /* other */
-    table.header, tbody, tr, td, div.header {
+    table.start, tbody, tr, td, header.start {
         width: 100%;
         height: auto;
     }
@@ -205,7 +205,7 @@
         text-align: center;
     }
 
-    div {
+    div, main, header, footer, address, article, nav, section {
         margin: 48px 80px 132px;
     }
 
@@ -232,7 +232,7 @@
         margin: 0 60px;
     }
 
-    p.header {
+    p.start {
         display: none;
     }
 
@@ -240,7 +240,7 @@
         margin: 24px 80px;
     }
 
-    table.header {
+    table.start {
         align-content: center;
         margin: auto;
         padding-left: 33%;
@@ -249,7 +249,7 @@
         width: fit-content;
     }
 
-    div.header {
+    header.start {
         border-bottom: #feed56 5px solid;
         padding-bottom: 8px;
     }
@@ -262,7 +262,7 @@
     }
 
     /* other */
-    table.header, tbody, tr, td, div.header {
+    table.start, tbody, tr, td, header.start {
         height: auto;
     }
 
