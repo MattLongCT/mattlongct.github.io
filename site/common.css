@@ -136,3 +136,8 @@ p.error {
 a.privacy {
 	font-weight: bold;
 }
+
+section.privacy {
+	margin: 0;
+	display: inherit;
+}
