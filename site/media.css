@@ -35,7 +35,7 @@
 
     /* specific classes */
     /* .header */
-    div.header {
+    header.header {
         background-color: white;
         border-bottom: black 0.25pc solid;
         position: static;
@@ -174,7 +174,7 @@
         width: fit-content;
     }
 
-    div.header {
+    header.header {
         border-bottom: #feed56 5px solid;
         padding-bottom: 8px;
     }
@@ -187,7 +187,7 @@
     }
 
     /* other */
-    table.header, tbody, tr, td, div.header {
+    table.header, tbody, tr, td, header.header {
         width: 100%;
         height: auto;
     }
@@ -249,7 +249,7 @@
         width: fit-content;
     }
 
-    div.header {
+    header.header {
         border-bottom: #feed56 5px solid;
         padding-bottom: 8px;
     }
@@ -262,7 +262,7 @@
     }
 
     /* other */
-    table.header, tbody, tr, td, div.header {
+    table.header, tbody, tr, td, header.header {
         height: auto;
     }
 

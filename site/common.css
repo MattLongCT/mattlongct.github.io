@@ -52,7 +52,7 @@ div.anchor {
 
 /* specific classes */
 /* .header */
-div.header {
+header.header {
 	margin: 0;
 	position: sticky;
 	top: 0;
