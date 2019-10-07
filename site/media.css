@@ -101,7 +101,7 @@
         display: none;
     }
 
-    div.record > h1, div.contact > h1 {
+    div.record > h1, address.contact > h1 {
         /*margin-bottom: 0.33em;*/
     }
 

@@ -87,7 +87,7 @@ p.intro {
 }
 
 /* .contact */
-div.contact {
+address.contact {
 	/*font-size: large;*/
 }
 
@@ -103,7 +103,7 @@ div.record {
 	/*margin-top: 48px;*/
 }
 
-div.record > h1, div.contact > h1 {
+div.record > h1, address.contact > h1 {
 	/*margin-bottom: 0.33em;*/
 }
 
