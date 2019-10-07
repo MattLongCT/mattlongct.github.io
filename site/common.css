@@ -51,8 +51,8 @@ div.anchor {
 }
 
 /* specific classes */
-/* .header */
-header.header {
+/* .start */
+header.start {
 	margin: 0;
 	position: sticky;
 	top: 0;
@@ -61,20 +61,20 @@ header.header {
 	padding: 8px;
 }
 
-table.header {
+table.start {
 	position: inherit;
 	margin: 0 1.5pc;
 	display: inline;
 }
 
-span.header {
+span.start {
 	display: inline;
 	font-size: 17px;
 	position: inherit;
 	margin: 48px;
 }
 
-p.header {
+p.start {
 	display: inherit;
 	margin: 24px;
 	vertical-align: middle;
