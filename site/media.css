@@ -198,7 +198,7 @@
 }
 
 /* For Galaxy S5/S6 */
-@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) {
     /* without classes */ td {
         font-size: xx-large;
         padding: 5px;
