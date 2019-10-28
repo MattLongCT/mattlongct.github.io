@@ -169,8 +169,8 @@
     table.header {
         align-content: center;
         margin: auto;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
         align-self: center;
         width: fit-content;
     }
