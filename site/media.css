@@ -121,7 +121,8 @@
 
 /* For iphone6 */
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
-    /* without classes */ td {
+    /* without classes */
+	td {
         font-size: xx-large;
         padding: 5px;
         text-align: center;
@@ -131,7 +132,7 @@
     }
 
     div {
-        margin: 48px 80px 160px;
+        margin: 5% 10% 15%;
     }
 
     h1 {
@@ -168,8 +169,8 @@
     table.header {
         align-content: center;
         margin: auto;
-        /* padding-left: 33%; */
-        /* padding-right: 33%; */
+        padding-left: 10%
+        padding-right: 10%;
         align-self: center;
         width: fit-content;
     }
