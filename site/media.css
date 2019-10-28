@@ -121,7 +121,8 @@
 
 /* For iphone6 */
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) {
-    /* without classes */ td {
+    /* without classes */
+	td {
         font-size: xx-large;
         padding: 5px;
         text-align: center;
@@ -131,7 +132,7 @@
     }
 
     div {
-        margin: 48px 80px 160px;
+        margin: 5% 10% 15%;
     }
 
     h1 {
@@ -153,7 +154,7 @@
 
     /* specific classes */
     li.contact {
-        font-size: 72px;
+        /* font-size: 72px; */
         margin: 0 60px;
     }
 
@@ -168,8 +169,8 @@
     table.header {
         align-content: center;
         margin: auto;
-        padding-left: 33%;
-        padding-right: 33%;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
         align-self: center;
         width: fit-content;
     }
@@ -195,6 +196,10 @@
     .form > p.subheader, div#form-content {
         display: none;
     }
+
+	table.header > tbody > tr:nth-child(2) > td {
+		font-size: x-large;
+	}
 }
 
 /* For Galaxy S5/S6 */
@@ -206,7 +211,7 @@
     }
 
     div {
-        margin: 48px 80px 132px;
+        margin: 5% 10% 15%;
     }
 
     h1 {
@@ -228,7 +233,8 @@
 
     /* specific classes */
     li.contact {
-        font-size: 72px;
+        /* font-size: 72px; */
+		
         margin: 0 60px;
     }
 
@@ -243,8 +249,8 @@
     table.header {
         align-content: center;
         margin: auto;
-        padding-left: 33%;
-        padding-right: 33%;
+        padding-left: 10%;
+        padding-right: 10%;
         align-self: center;
         width: fit-content;
     }
@@ -269,4 +275,8 @@
     .form > p.subheader, div#form-content {
         display: none;
     }
+
+	table.header > tbody > tr:nth-child(2) > td {
+		font-size: x-large;
+	}
 }
