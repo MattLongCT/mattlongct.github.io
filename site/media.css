@@ -195,6 +195,10 @@
     .form > p.subheader, div#form-content {
         display: none;
     }
+
+	table.header > tbody > tr:nth-child(2) > td {
+		font-size: x-large;
+	}
 }
 
 /* For Galaxy S5/S6 */
@@ -270,4 +274,8 @@
     .form > p.subheader, div#form-content {
         display: none;
     }
+
+	table.header > tbody > tr:nth-child(2) > td {
+		font-size: x-large;
+	}
 }
